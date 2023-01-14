@@ -1,0 +1,112 @@
+#Contact {
+  width: 50%;
+}
+
+#button {
+  width: 50%;
+  height: 10%;
+  background-color: #ffffff;
+  color: black;
+  font-size: 20px;
+  border-radius: 1.5em;
+}
+
+.textarea {
+  padding-top: 5%;
+  text-align: center;
+}
+
+body {
+  background-color: #1382C0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-size: 22px;
+}
+
+.b {
+  padding-left: 15%
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 55px;
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+}
+
+.title2 {
+  font-size: 55px;
+  text-decoration: underline;
+}
+
+.title3 {
+  font-size: 33px;
+  text-decoration: underline;
+}
+
+a.button,a.button:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.button{
+  padding-bottom: 1.5rem;
+}
+
+a.button:hover {
+  color: #1382C0;
+}
+
+a.button2,a.button2:visited {
+  color: white;
+  font-size: 32px;
+}
+
+a.button2:hover {
+  color: black;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+}
+
+.wrap{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    form{
+      font-size: 2rem;
+      width: 100%;
+      height: 1500px;
+    }
+    .button{
+      padding-bottom: 2.5rem;
+      font-size: 2rem;
+    }
+    textarea {
+      text-align: center;
+      height: 550px;
+    }
+    input{
+      padding: 0.4rem;
+    }
+  }

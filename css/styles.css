@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--text--font);
+}
+:root{
+    --text--font:'Roboto';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#header{
+    height: 100px;
+    background-color: #1382C0; 
+}   
+
+.indexPagetitle{
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-item, .nav-link{
+    display: inline-block;
+    margin-right: 5px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family:  monospace;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-item:not(:last-child)::after {
+    content: "|";
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+.card-grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+
+.card{
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+.cp{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.inTime{
+    font-size: 2.5rem;
+    margin: 10px;
+}
+
+.profilePic{
+    height: 100px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.portfolio_btn{
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: none;
+    cursor: pointer;
+    color: white;
+}
+
+.Profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.schoolDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.schoolTitle{
+    padding: 1rem;
+    font-size: 4rem;
+    color: #1382C0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+img {
+    margin-top: 15%;
+}
+
+p.cp {
+    padding: 10px;
+}
+
+.mapDiv{
+    width: 1300px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 0.5em;
+}
+
+.map{
+    width: 100%;
+}
+
+hr.line {
+    border: 2px solid black;
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .card-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card{
+        width: 300px;
+        height: 400px;
+    }
+    #header{
+        height: 60px;
+    }
+    .indexPagetitle{
+        font-size: 2rem;
+    }
+    .nav-item, .nav-link{
+        font-size: 1rem;
+    }
+    nav{
+        padding: 1rem;
+    }
+    .map{
+        width: 350px;
+        height: 300px;
+    }
+    .schoolTitle{
+        font-size: 2rem;
+    }
+  }
