@@ -1,0 +1,142 @@
+*{
+  background-color: palegoldenrod;
+}
+.contact_title{
+  width: 17%;
+  height: 15%;
+  align-content: center;
+  position: absolute;
+  padding-left: 41.5%;
+  padding-top: 1.5%;
+}
+.NavBar{
+  padding-top: 20px;
+  padding-left: 10px;
+  position: absolute;
+}
+.option
+{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid white;
+}
+.option1
+{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 6px;
+  border-right: 1px solid white;
+  background-color: white;
+}
+.option2
+{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.option:hover
+{
+    text-decoration: underline; black 0.5px;
+}
+.option1:hover
+{
+    text-decoration: underline; black 0.5px;
+}
+.option2:hover
+{
+    text-decoration: underline; black 0.5px;
+}
+.p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+}
+.text{
+  max-width: 50rem;
+  margin: 0 auto;
+  line-height: 1.7;
+  font-size: 0.9em;
+  padding-top: 130px;
+  text-align: center;
+  font-weight: lighter;
+}
+.forms{
+  width: 250px;
+  padding: 8px;
+  background-color: transparent;
+  border-color: 0.09px solid black;
+  font-family: Filosofia, Georgia, serif;
+  box-sizing: border-box;
+}
+.button {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 40px;
+  cursor: pointer;
+  position: relative;
+  font-family: Filosofia, Georgia, serif;cs
+  float: left;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+img.subscribe{
+  width: 10px;
+}
+.button:hover {
+    background-color: rgb(255,245,203);
+    transition: 0.5s;
+    color: black;
+  }
+h4{
+  font-family: Filosofia, Georgia, serif;cs;
+  text-align: center;
+  font-size: 25px;
+  word-spacing: 7px;
+  letter-spacing: 2px;
+  padding-top: 45px;
+  align-items: center;
+  width: 100%;
+  max-width: 41.625rem;
+  margin: 0 auto;
+  color: rgb(255,255,189);
+  padding-left: 13px;
+  cursor: pointer;
+}
+.footer_links{
+  list-style-type: none;
+  text-align: center;
+  padding-left: 25px;
+  font-size: 15px;
+}
+.footer_links a:visited{
+  text-decoration: none;
+  color: #c2be8a;
+}
+.footer_links a:hover{
+  color: rgb(139,137,102);
+  transition: 260ms;
+}
+.footer_links a{
+  text-decoration: none;
+  color: #c2be8a;
+}

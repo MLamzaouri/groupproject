@@ -1,0 +1,45 @@
+.nav_bar { font-size: 25px
+
+
+}
+
+.nav_bar ul{
+  list-style: none;
+}
+.nav_bar li{
+  display: inline;
+}
+
+.nav_bar {
+    float: left;
+    margin-left: 20px;
+}
+
+.nav_bar {
+  style="font-family:verdana"
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+table {
+  position: fixed;
+    bottom: 0;
+  }
+
+  body {
+    background-image: url('https://luca.restaurant/wp-content/uploads/RESTAURANT_6_048-1.jpg');
+  }
+
+  .logo {
+    width: 100%;
+    height: 200px;
+  }
+
+table {
+  font-family: sans-serif;
+}

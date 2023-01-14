@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:var(--text-font-);
+}
+html{
+  scroll-behavior: smooth;
+}
+
+:root{
+  --text-font-:'Roboto';
+  ---text---color:white;
+}
+
+header{
+  z-index: 100;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: center;
+}
+
+.nav-item, .nav-link{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family:  var(--text-font-);
+  font-weight: 700;
+  color: var(---text---color);
+}
+
+#landing{
+  margin-top: -90px;
+  height: 800px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline:1px solid red;
+  color: var(---text---color);
+  font-family: var(--text-font-);
+  background-image: url(https://th.bing.com/th/id/R.73721baf254616ed27e67400740c03a5?rik=KAAHpshA2a36sw&riu=http%3a%2f%2fwww.hqwalls.com%2fwp-content%2fuploads%2f2016%2f01%2fMilky-Way-HD-Wallpapers-2.jpg&ehk=PMQnUrHdu4%2fx4eDzHZQurDHMy%2fCdPndDFlIqz5N1dKQ%3d&risl=&pid=ImgRaw&r=0);/* Change*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.user_info{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 700px;
+}
+
+.name{
+  font-size: 3rem;
+}
+
+.person_info{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+/* About section */
+
+.aboutME{
+  height: 450px;
+  font-family: var(--text-font-);
+  display: flex;
+  justify-content: center;
+  background-color: rgb(28, 28, 28);
+  color: white;
+}
+
+.aboutMeInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  gap: 40px;
+}
+
+.abt_title{
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.abt_info{
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.contact{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 60px;
+}
+.contact_info{
+  text-align: left;
+}
+
+.cv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resumeBtn{
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background:none;
+  border:1px solid white;
+  cursor: pointer;
+}
+
+
+
+/* Skills section */
+
+.skills{
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.skillsTitle{
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.skillContainer{
+  width: 90%;
+  height: 700px;
+  background-color: rgba(255, 255, 255);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  font-family: monospace;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+
+.skillsTitle{
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-family: monospace;
+  text-decoration: underline;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.skillname{
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.skill-grid{
+  width: 80%;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.skillimg{
+  height: 150px;
+}
+
+/* W3 SCHOOLS https://www.w3schools.com/howto/howto_css_skill_bar.asp */
+.container {
+  width: 80%;
+  background-color: #ddd;
+  margin-bottom: 50px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 90%; background-color: #2196F3;}
+.js {width: 85%; background-color: #f44336;}
+.python{width: 60%; background-color: #808080;}
+.java{width: 60%; background-color: #07610d;}
+
+
+/* Coursework section  */
+
+.coursework{
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.workTitle{
+  font-size: 2rem;
+  padding: 1rem;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.mobileTitle{
+  display: none;
+}
+
+.CW-grid{
+  margin-top: 100px;
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.cw1{
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 300px;
+  transition: 1s ease-in-out;
+  outline: 1px solid red;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/4af52551360455.5608ad8638bce.jpg);
+  background-size: 600px 300px;* Change*/
+}
+
+.cwh1{
+  display: none;
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(---text---color);
+}
+
+.cw1:hover > .cwh1{
+  display: block;
+}
+
+
+.cw2{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 300px;
+  outline: 1px solid red ;
+  transition: 1s ease-in-out;
+  background-image: url(https://th.bing.com/th/id/OIP.SwLKo4nJqkeEyZVc_hejewHaFj?pid=ImgDet&rs=1);
+  background-size: 600px 300px;/* Change*/
+  background-position: center;
+  background-size: center;
+}
+
+.cwh2{
+  display: none;
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(---text---color);
+}
+
+.cw2:hover >.cwh2{
+  display: block;
+}
+
+
+
+/* about */
+.Skills{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.skillTitle{
+  padding: 1rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  text-decoration: underline;
+  color: black;
+}
+
+.container{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.skill-container{
+  width: 100%;
+  background: #ddd;
+}
+.skill{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  outline: 1px solid black;
+}
+.html{
+  width: 80%;
+  background-color: grey;
+}
+.css{
+  width: 80%;
+  background-color: grey;
+}
+.js{
+  width: 75%;
+  background-color: grey;
+}
+.php{
+  width: 70%;
+  background-color: grey;
+}
+
+.line{
+  color: white;
+}
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #landing{
+      margin-top: -120px;
+    }
+    .nav-item, .nav-link{
+      font-size: 0.8rem;
+    }
+    .name{
+      font-size: 1.8rem;
+    }
+    .person_info{
+      font-size: 0.8rem;
+      text-align: center;
+      padding: 1rem;
+    }
+    .abt_title{
+      font-size: 1.8rem;
+      margin-top: 40px;
+    }
+    .abt_info{
+      font-size: 0.8rem;
+      padding: 1rem;
+      margin-top: -30px;
+    }
+    .contact{
+      margin-top: -40px;
+      gap: 30px;
+    }
+    .contact_info{
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .contact_info > p{
+      font-size: 0.8rem;
+    }
+    .resumeBtn{
+      font-size: 1rem;
+      color: white;
+    }
+    .contactTitle{
+      font-size: 1rem;
+    }
+    .CW-grid{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      margin-top: 50px;
+    }
+    .cw1{
+      width: 350px;
+      height: 200px;
+    }
+    .cw2{
+      width: 350px;
+      height: 200px;
+    }
+    .mobileTitle{
+      color: white;
+      display: block;
+    }
+  }
