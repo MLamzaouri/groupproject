@@ -1,0 +1,98 @@
+<style>
+
+p.a {
+  font-family: Comic Sans MS, Comic Sans, cursive; font-size: 15px
+}
+
+p.b {
+  font-family: Comic Sans MS, Comic Sans, cursive; font-size: 13px
+}
+
+header {
+  background-color: #ecf39e
+}
+
+footer {
+  background-color: #ecf39e
+}
+
+h1 {
+  text-align: center; color: #202C1E; font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+font-size: 44.8px
+}
+
+h2.a {
+  text-align: center; color: #202C1E; font-family: Gill Sans, sans-serif;
+  font-size: 34.4px
+}
+
+h2 {
+  text-align: center; color: #ecf39e; font-family: Gill Sans, sans-serif;
+  font-size: 34.4px
+}
+
+li {
+  list-style: none; text-align: center;
+}
+
+#Description {
+  text-align: center;
+}
+
+#Related_Photos {
+  text-align: center;
+}
+
+#Reviews {
+  text-align: left;
+}
+
+figcaption {
+  text-align: center; font-size: 12px; font-family: Andale Mono, monospace;
+}
+
+a {
+  color: white; text-decoration: none; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+a:visited {
+  color: white; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+a:active {
+  color: #ecf39e; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+a:hover {
+  color: #ecf39e; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+table {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+p.a {
+  font-family: Comic Sans MS, Comic Sans, cursive; font-size: 15px
+}
+
+a.b {
+  color: #202C1E; text-decoration: none; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+a.b:visited {
+  color: #202C1E; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+a.b:active {
+  color: white; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+a.b:hover {
+  color: white; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+</style>

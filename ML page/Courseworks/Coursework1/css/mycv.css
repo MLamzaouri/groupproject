@@ -1,0 +1,64 @@
+
+    <style>
+
+      header {
+        background-color: #041C29;
+      }
+
+      h1 {
+        color: white;
+      }
+
+      p.a {
+        color: white;
+      }
+
+
+      table, tr, td, th {
+        border-collapse: collapse;
+      }
+
+      a.b {
+        color: #2274A5
+      }
+
+      a.b:visited {
+        color: #2274A5
+      }
+
+      a.b:hover {
+        color: white;
+      }
+
+      a.b:active {
+        color: white;
+      }
+
+      a.b:link {
+        text-decoration: none;
+      }
+
+      a.a {
+        color: white;
+      }
+
+      a.a:visited {
+        color: white;
+      }
+
+      a.a:hover {
+        color: #e36414;
+      }
+
+      a.a:active {
+        color: #e36414;
+      }
+
+
+      header {
+        background-color: #041C29;
+      }
+
+
+
+    </style>

@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/x-icon" href="./images/icon.jpg">
+    <title>Luca</title>
+  </head>
+  <body>
+
+
+<header class="pageheader">
+
+
+<div id="Navigation">
+
+<nav>
+
+<div id="Reservations">
+
+  <!--Button onclick command was found on geeksforgeek.org: https://www.geeksforgeeks.org/how-to-create-an-html-button-that-acts-like-a-link/-->
+<button id="navi-reservation-button" type="button"  onclick="window.location.href = '#private'" name="Reservations">Reservations</button>
+</div>&nbsp
+<a href="#menus">Menus</a> <span style='color:white;'>|</span>
+<a href="#private">Private Dining</a> <span style='color:white;'>|</span>
+<a href="#christmas">Christmas</a> <span style='color:white;'>|</span>
+<a href="https://luca.restaurant/careers/">Careers</a><span style='color:white;'>|</span>
+
+<!--Link to Github: https://github.com/Mlamzaouri/Coursework2-->
+<a href="https://github.com/Mlamzaouri/Coursework2">Github</a>
+</nav>
+
+
+</div>
+
+
+
+<section class="centre">
+
+<div class="logo-area">
+<img id="logo" src="./images/luca-logo.png" alt="Luca">
+</div>
+
+<div class="footer">
+
+<div class="Social-Media">
+<a href="https://www.instagram.com/luca.restaurant/?hl=en">Instagram</a>
+</div>
+
+<div class="address-details">
+<a href="tel:02038593000">020 3859 3000</a>&nbsp
+<div class="address">
+<span style='color:white;'>|</span>
+<a href="https://www.google.co.uk/maps/place/Luca/@51.5221936,-0.103368,17z/data=!4m13!1m7!3m6!1s0x48761b511729cc2b:0x2c2da3589331eaf9!2s88+St+John+St,+London+EC1M+4EL!3b1!8m2!3d51.5221836!4d-0.1020119!3m4!1s0x48761b51100724a7:0xc779912dc42da7d4!8m2!3d51.5220361!4d-0.1016722">
+88 St John St, Clerkenwell, London EC1M 4EH</a>
+</div>
+</div>
+
+</div>
+</section>
+
+
+<!--Automatic slideshow made with w3schools: https://www.w3schools.com/w3css/w3css_slideshow.asp-->
+<div class="automatic-slideshow">
+  <div class="slideshow-images">
+
+
+  <img class="mySlides" src="./images/luca-automatic-slideshow1.jpg" style="width:100%; height:100vh">
+  <img class="mySlides" src="./images/luca-automatic-slideshow2.jpg" style="width:100%; height:100vh">
+  <img class="mySlides" src="./images/luca-automatic-slideshow3.jpg" style="width:100%; height:100vh">
+  <img class="mySlides" src="./images/luca-automatic-slideshow4.jpg" style="width:100%; height:100vh">
+  <img class="mySlides" src="./images/luca-automatic-slideshow5.jpg" style="width:100%; height:100vh">
+  <img class="mySlides" src="./images/luca-automatic-slideshow6.jpg" style="width:100%; height:100vh">
+  <img class="mySlides" src="./images/luca-automatic-slideshow7.jpg" style="width:100%; height:100vh">
+
+
+  </div>
+</div>
+
+<!--script for the header slideshow-->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 4000);
+}
+</script>
+
+
+</header>
+
+
+
+
+
+
+<div class="whitebox">
+<div class="whitebox-text">
+<h2>British seasonal ingredients through an Italian lens</h2>
+</div>
+</div>
+
+
+<div class="red-box" style="display:inline-block">
+<div class="restaurant-section">
+
+
+<header class="restaurant">
+
+<img class="restaurant-title" src="./images/heading-restaurant.png" alt="Image">
+
+</header>
+
+
+<div class="restaurant-textbox">
+  <p>The restaurant serves high-quality ingredients from around the
+     British Isles and Italy. Seasonal produce such as scallops form Orkney,
+      Hebridean lamb and turbot from Cornwall. It is food that observes the
+       established traditions of Italian cooking, but breaks the rules a little.</p>
+</div>
+
+<br>
+
+<div class="restaurant-button">
+  <button class="r-button" type="button" name="button">book a table</button>
+</div>
+
+</div>
+
+</div>
+
+<div class="restaurant-image-section" style="display:inline-block" >
+<img class="restaurant-image" src="images/restaurant-image.jpg" alt="Image" width="100%" height="745px">
+</div>
+
+
+
+<br>
+
+<div id="christmas">
+
+
+
+<div class="christmas-image-section" style="display:inline-block" >
+<img class="christmas-image" src="images/christmas-image.png" alt="Image" width="100%" height="745px">
+</div>
+
+<div class="orange-box" style="display:inline-block">
+<div class="christmas-section">
+
+<header class="christmas">
+
+<img class="christmas-title"  src="./images/heading-christmas.png" alt="Image">
+
+</header>
+
+<div class="christmas-textbox">
+  <p>There’s something special about Christmas at Luca. Our restaurant
+     and private dining rooms will be given a magical make over from 22nd
+      November. We are now taking reservations for the Garden Room, Pasta
+       Room, Terrace and main restaurant, accommodating groups of all sizes.</p>
+</div>
+
+<br>
+
+<div class="button-inline">
+
+
+<div class="christmas-button" style="display:inline-block">
+<a class="christmas-links" href="https://lucarestaurant.tripleseat.com/party_request/24975">enquire</a>
+</div>
+
+<div class="christmas-button2" style="display:inline-block">
+<a  class="christmas-links" href="https://luca.restaurant/wp-content/uploads/Christmas-Events-at-Luca-2022.pdf">events brochhure</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+<div class="yellow-box" style="display:inline-block">
+<div class="bar-section">
+
+<header class="bar">
+
+<img class="bar-title"  src="./images/heading-luca-bar.png" alt="Image">
+
+</header>
+
+<div class="bar-textbox">
+  <p>The restaurant serves high-quality ingredients from around the
+     British Isles and Italy. Seasonal produce such as scallops form Orkney,
+      Hebridean lamb and turbot from Cornwall. It is food that observes the
+       established traditions of Italian cooking, but breaks the rules a little.</p>
+</div>
+
+<br>
+
+<div class="bar-button">
+  <button class="b-button" type="button" name="button">book a table</button>
+</div>
+
+</div>
+
+</div>
+
+<div class="bar-image-section" style="display:inline-block" >
+<img class="bar-image" src="images/bar-image.jpg" alt="Image" width="100%" height="745px">
+</div>
+
+
+<br>
+
+<!--Manual slideshow from W3schools: https://www.w3schools.com/w3css/w3css_slideshow.asp-->
+<div class="container">
+  <div class="mySlides2">
+    <div class="numbertext">1 / 8</div>
+    <img class="Slideshow" src="images/luca-manual-slideshow1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <div class="numbertext">2 / 8</div>
+    <img class="Slideshow" src="images/luca-manual-slideshow2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <div class="numbertext">3 / 8</div>
+    <img class="Slideshow" src="images/luca-manual-slideshow3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <div class="numbertext">4 / 8</div>
+    <img class="Slideshow" src="images/luca-manual-slideshow4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <div class="numbertext">5 / 8</div>
+  <img class="Slideshow" src="images/luca-manual-slideshow5.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <div class="numbertext">6 / 8</div>
+  <img class="Slideshow" src="images/luca-manual-slideshow6.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <div class="numbertext">7 / 8</div>
+  <img class="Slideshow" src="images/luca-manual-slideshow7.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <div class="numbertext">8 / 8</div>
+  <img class="Slideshow" src="images/luca-manual-slideshow8.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  </div>
+
+
+<!--Script for the Manual slideshow.-->
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides2");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+<div id="private">
+
+
+<div class="private-image-section" style="display:inline-block" >
+<img class="private-image" src="images/private-image.jpeg" alt="Image" width="100%" height="745px">
+</div>
+
+<div class="brown-box" style="display:inline-block">
+<div class="private-section">
+
+
+<header class="private-dining">
+
+<img class="private-dining-title"  src="./images/heading-private-dining.png" alt="Image">
+
+</header>
+
+<div class="private-textbox">
+  <p>We have three private dining spaces; The Terrace for up to twenty guests,
+     The Pasta Room for up to ten, and The Garden Room for up to eight guests.</p>
+
+<p>
+We can also accommodate parties for up to 14 guests on large tables in our main dining room or up to 100 guests for private hire.</p>
+
+</div>
+<br>
+
+<div class="private-button" style="display:inline-block">
+  <a class="private-links" href="https://lucarestaurant.tripleseat.com/party_request/24975">enquire</a>
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="yellow-box2" style="display:inline-block">
+<div class="gifts-section">
+
+
+<header class="gifts">
+
+<img class="gifts-title" src="./images/heading-gifts-experiences.png" alt="Image">
+
+</header>
+
+<div class="gifts-textbox">
+  <p>We have a selection of gift vouchers and experiences available.</p>
+</div>
+<br>
+<div class="gifts-button">
+  <a class="gifts-links" href="https://shop.luca.restaurant/">more info</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="gifts-image-section" style="display:inline-block" >
+<img class="gifts-image" src="images/gifts-image.jpg" alt="Image" width="100%" height="745px">
+</div>
+
+<br>
+
+
+
+<div class="reservation-box">
+  <div class="Reservations-section">
+
+
+    <header class="reservation">
+
+      <img class="reservation-title" src="images/heading-reservations-white.png" alt="Reservations">
+
+    </header>
+
+  <div class="reservation-text">
+    <p>To make a booking please click below.</p>
+
+    <br>
+
+    <p>For any other enquiries you can email us at <a href="mailto:reservations@luca.restaurant">reservations@luca.restaurant</a>
+. Our reservations lines are open Monday – Friday from 10 am to 5 pm.
+     </p>
+  </div>
+
+  <br>
+
+  <div class="Reservation-button-area">
+    <button class="button-reservation" type="button" name="button">book a table</button>
+  </div>
+</div>
+</div>
+
+
+
+<div id="menus">
+
+
+<div class="menus-box">
+  <div class="menus-section">
+
+
+    <header class="menus">
+      <img class="menus-title" src="images/heading-menus-white.png" alt="menus">
+    </header>
+
+  <div class="menus-text">
+    <p>Our menus reflect the seasons, serving the finest traditional Italian
+       pasta dishes alongside a variety of meat and seasonal seafood.</p>
+    <br>
+    <p>We operate a corkage policy of £35 per bottle and allow a maximum
+       of 1 bottle for up to two people and 2 bottle for up to six guests.
+     </p>
+  </div>
+  <br>
+
+
+<div class="menu-buttons">
+
+
+  <div class="menus-button-left">
+    <a class="m-button" href="https://luca.restaurant/menus/restaurant/">dining room</a>
+  </div>
+
+  <div class="menus-button-right">
+    <a class="m-button" href="https://luca.restaurant/menus/bar-dining/">bar dining</a>
+  </div>
+<br>
+<br>
+  <div class="menus-button-left">
+    <a class="m-button" href="https://luca.restaurant/menus/desserts/">deserts</a>
+  </div>
+
+  <div class="menus-button-right">
+    <a class="m-button" href="https://luca.restaurant/menus/bar-drinks/">drinks</a>
+  </div>
+<br>
+<br>
+  <div class="menus-button-left">
+    <a class="m-button" href="https://luca.restaurant/menus/wine/">wine list</a>
+  </div>
+
+  <div class="menus-button-right">
+    <a class="m-button" href="https://luca.restaurant/menus/luca-sample-menu/">private dining</a>
+  </div>
+
+</div>
+
+
+
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+<div class="location-box" style="display:inline-block">
+<div class="location-section">
+
+  <header class="location">
+
+<img class="location-title" src="./images/heading-hours-location-white.png" alt="Image">
+
+</header>
+
+<div class="location-textbox">
+
+  <p class="location-title"> <strong>Restaurant</strong> </p>
+<br>
+  <p class="location-paragraph">We are open for dinner Tuesday to Saturday from 6 pm and for lunch Wednesday to Saturday from 12 pm to 2 pm.</p>
+<br>
+<br>
+    <p class="location-title"> <strong>Location</strong> </p>
+<br>
+    <p class="location-paragraph">We can be found at 88 St. John Street in the heart of Clerkenwell. We are five minutes from Farringdon station</p>
+
+
+</div>
+
+<br>
+<div class="location-button">
+  <a class="location-link"href="https://www.google.co.uk/maps/place/Luca/@51.5221936,-0.103368,17z/data=!4m13!1m7!3m6!1s0x48761b511729cc2b:0x2c2da3589331eaf9!2s88+St+John+St,+Clerkenwell,+London+EC1M+4EL!3b1!8m2!3d51.5221836!4d-0.1020119!3m4!1s0x48761b51100724a7:0xc779912dc42da7d4!8m2!3d51.5222538!4d-0.1018462">Open in maps</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="location-iframe" style="display:inline-block">
+  <!--Iframe taken from google maps on the official luca website.-->
+<iframe class="l-iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2482.5106247189606!2d-0.103368!3d51.5221936!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b51100724a7%3A0xc779912dc42da7d4!2sLuca!5e0!3m2!1sen!2suk!4v1669111652524!5m2!1sen!2suk" width="100%" height="745px style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade""></iframe>
+</div>
+
+
+
+
+
+
+
+<footer class="loveclub-box">
+  <div class="loveclub-section">
+
+    <header class="loveclub">
+      <img class="loveclub-title" src="images/clove-club-group-logo.png" alt="Reservations">
+    </header>
+
+  <div class="loveclub-text">
+    <p>The Clove Club Group is a London-based restaurant group which includes The Clove Club and Luca.</p>
+    <br>
+    <p>The group was founded in 2012 by owners Isaac McHale, Daniel Willis & Johnny Smith.
+     </p>
+  </div>
+  <br>
+<p>Sign up to the newsletter to stay in touch.</p>
+
+<div class="form">
+  <label for="Firstname"></label>
+  <br>
+  <input class="loveclub-form" type="text" name="Firstname" value="" placeholder="First name">
+<br>
+  <label for="Surname"></label>
+  <br>
+  <input class="loveclub-form" type="text" name="Surname" value="" placeholder="Surname">
+<br>
+  <label for="Email address"></label>
+  <br>
+  <input class="loveclub-form" type="email" name="Email address" value="" placeholder="Email address">
+
+</div>
+
+<div class="subscribe-button" style="display:inline-block">
+  <button class="s-button" type="button" name="button">Subscribe</button>
+</div>
+
+<div class="cloveclub-footer-title-section">
+  <h3 class="loveclub-title2"><a class="title-link" href="https://thecloveclub.com/">The Clove Club</a></h3>
+
+</div>
+
+
+
+<div class="links">
+  <a class="footer-links" href="http://e-i-b.com/">Design: EverythingInBetween</a>
+  <br>
+  <a class="footer-links" href="https://www.bendesilva.com/">Development: Benedict de Silva</a>
+  <br>
+  <a class="footer-links" href="https://www.iubenda.com/privacy-policy/98574711">Privacy Policy</a>
+</div>
+
+
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

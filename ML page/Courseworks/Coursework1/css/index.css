@@ -1,0 +1,57 @@
+<style>
+
+p {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center; color: #392f5a;
+font-size: 45px
+}
+
+h2 {
+  text-align: center; color: #392f5a
+}
+
+nav {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white
+}
+
+hr {
+  border: 5px solid #fff8f0
+}
+
+a:visited {
+  color: white
+}
+
+a:active {
+  color: #392f5a
+}
+
+a:hover {
+  color:#392f5a
+}
+
+div.a {
+  border: 5px solid black;
+  background-color: #8DC9C2;
+  margin-top: 125px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+</style>

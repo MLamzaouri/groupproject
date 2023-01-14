@@ -1,0 +1,1143 @@
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header.pageheader {
+  background: url(../images/lucabackground.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  max-width: 100%;
+  display: block;
+
+}
+
+
+div.automatic-slideshow {
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+div.slideshow-images {
+position: relative;
+width: 100%;
+height: 100vh;
+display: flex;
+z-index: 1;
+}
+
+
+
+body {
+  background-image: url("../images/lucabackground.jpg");
+  background-color: #d43c07;
+  background-attachment: fixed;
+  margin: 0;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  font-family: Filosofia, Georgia, serif;
+  font-size: 19.25px;
+  padding: 2.2%;
+  z-index: 2;
+}
+
+#Navigation {
+display: flex;
+z-index: 2;
+}
+
+
+
+#Reservations {
+  color: black;
+  display: inline-block;
+  background-color: white;
+  padding: 0.4em 0.5em 0.2em;
+  z-index: 2;
+
+}
+
+#navi-reservation-button{
+  background: none;
+  border: none;
+  font-size: 19.25px;
+  font-family: Filosofia, Georgia, serif;
+  cursor: pointer;
+  z-index: 2;
+
+}
+
+
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+section.centre {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.logo-area {
+  z-index: 2;
+  position: relative;
+  max-width: 50rem;
+  width: 100%;
+  margin-top: 8%;
+}
+
+
+
+#logo {
+display: block;
+width: 100%;
+height: auto;
+width: 26.75rem;
+max-width: 75%;
+margin: 4.5rem auto;
+font-size: 1em;
+font-weight: 400;
+}
+
+div.footer {
+  position: absolute;
+  bottom: 2.125em;
+  left: 2.125em;
+  right: 2.125rem;
+  font-size: 1.15em;
+  display: flex;
+  justify-content: space-between;
+  font-family: Filosofia, Georgia, serif;
+  z-index: 2;
+}
+
+div.address-details {
+  display: flex;
+}
+
+div.Social-Media {
+  display: flex;
+}
+
+div.whitebox-text {
+  background-color: white;
+  width: 100%;
+  height: 20%;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+h2 {
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.8em;
+  font-weight: 400;
+  text-align: center;
+  padding: 11%;
+}
+
+div.red-box {
+  width: 50%;
+  background-color: #cf2e2e;
+  height: 745px;
+  opacity: 0.8;
+}
+
+div.restaurant-image-section {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+
+div.restaurant-section {
+  position: relative;
+  width: 100%;
+  max-width: 50rem;
+}
+
+header.restaurant {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10%
+}
+
+img.restaurant-title {
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.8em;
+  font-weight: 400;
+  text-align: center;
+  padding: 11%;
+  margin-left: 24%;
+}
+
+div.restaurant-textbox {
+  margin-bottom: 0;
+  text-align: center;
+  display: block;
+  max-width: 22rem;
+  font-size: 1.375em;
+  font-family: font-family: Filosofia, Georgia, serif;
+  line-height: 1.3333;
+  margin: 0 auto;
+}
+
+div.restaurant-button {
+  width: 100%;
+  text-align: center;
+  margin-top: 2.125rem;
+  display: block;
+  font-size: 0;
+}
+
+button.r-button {
+  width: 30%;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  appearance: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: .2em;
+  border: 1px solid black;
+  background: 0 0;
+
+}
+
+div.christmas-image-section {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+div.orange-box {
+  margin-left: 50%;
+  width: 50%;
+  background-color: #ff6900;
+  height: 745px;
+  opacity: 0.8;
+}
+
+
+div.christmas-section {
+  position: relative;
+  width: 100%;
+  max-width: 50rem;
+}
+
+header.christmas {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10%
+}
+
+img.christmas-title {
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.8em;
+  font-weight: 400;
+  text-align: center;
+  padding: 11%;
+  margin-left: 28%;
+}
+
+div.christmas-textbox {
+  margin-bottom: 0;
+  text-align: center;
+  display: block;
+  max-width: 22rem;
+  font-size: 1.375em;
+  font-family: font-family: Filosofia, Georgia, serif;
+  line-height: 1.3333;
+  margin: 0 auto;
+}
+
+div.christmas-button {
+  margin-top: 2.125rem;
+  width: 30%;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  appearance: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: .2em;
+  border: 1px solid black;
+  background: 0 0;
+  margin-left: 12%;
+}
+
+div.christmas-button2 {
+  margin-top: 2.125rem;
+  width: 45%;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  appearance: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: .2em;
+  border: 1px solid black;
+  background: 0 0;
+  margin-left: 2%
+}
+
+
+a.christmas-links {
+  color: white;
+  text-decoration: none;
+}
+
+a.christmas-links:visited {
+  color: black;
+}
+
+a.christmas-links:hover {
+  color: white;
+}
+
+a.christmas-links:active {
+  color: white;
+}
+
+
+
+
+
+
+div.bar-image-section {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+div.yellow-box {
+  width: 50%;
+  background-color: #ccb494;
+  height: 745px;
+  opacity: 0.8;
+}
+
+
+div.bar-section {
+  position: relative;
+  width: 100%;
+  max-width: 50rem;
+}
+
+header.bar {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10%
+}
+
+img.bar-title {
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.8em;
+  font-weight: 400;
+  text-align: center;
+  padding: 11%;
+  margin-left: 27%;
+}
+
+div.bar-textbox {
+  margin-bottom: 0;
+  text-align: center;
+  display: block;
+  max-width: 22rem;
+  font-size: 1.375em;
+  font-family: font-family: Filosofia, Georgia, serif;
+  line-height: 1.3333;
+  margin: 0 auto;
+}
+
+div.bar-button {
+  width: 100%;
+  text-align: center;
+  margin-top: 2.125rem;
+  display: block;
+  font-size: 0;
+}
+
+button.b-button {
+  width: 30%;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  appearance: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: .2em;
+  border: 1px solid black;
+  background: 0 0;
+
+}
+
+
+
+
+
+
+
+img.slideshow {
+  vertical-align: middle;
+}
+
+
+
+
+div.container {
+  position: relative;
+}
+
+
+div.mySlides2 {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+
+div.private-image-section {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+div.brown-box {
+  margin-left: 50%;
+  width: 50%;
+  background-color: #ccb494;
+  height: 745px;
+  opacity: 0.8;
+}
+
+
+div.private-section {
+  position: relative;
+  width: 100%;
+  max-width: 50rem;
+}
+
+header.private {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10%
+}
+
+img.private-dining-title {
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.8em;
+  font-weight: 400;
+  text-align: center;
+  padding: 11%;
+  margin-left: 24%;
+}
+
+div.private-textbox {
+  margin-bottom: 0;
+  text-align: center;
+  display: block;
+  max-width: 22rem;
+  font-size: 1.375em;
+  font-family: font-family: Filosofia, Georgia, serif;
+  line-height: 1.3333;
+  margin: 0 auto;
+}
+
+div.private-button {
+  margin-top: 2.125rem;
+  width: 30%;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  appearance: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: .2em;
+  border: 1px solid black;
+  background: 0 0;
+  margin-left: 35%
+}
+
+a.private-links {
+  color: black;
+  text-decoration: none;
+}
+
+a.private-links:visited {
+  color: black;
+}
+
+a.private-links:hover {
+  color: white;
+}
+
+a.private-links:active {
+  color: black;
+}
+
+
+
+
+
+
+div.gifts-image-section {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+div.yellow-box2 {
+  width: 50%;
+  background-color: #fcb900;
+  height: 745px;
+  opacity: 0.8;
+}
+
+
+div.gift-section {
+  position: relative;
+  width: 100%;
+  max-width: 50rem;
+}
+
+header.gifts {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10%
+}
+
+img.gifts-title {
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.8em;
+  font-weight: 400;
+  text-align: center;
+  padding: 11%;
+  margin-left: 19%;
+}
+
+div.gifts-textbox {
+  margin-bottom: 0;
+  text-align: center;
+  display: block;
+  max-width: 22rem;
+  font-size: 1.375em;
+  font-family: font-family: Filosofia, Georgia, serif;
+  line-height: 1.3333;
+  margin: 0 auto;
+}
+
+div.gifts-button {
+  margin-top: 2.125rem;
+  width: 28%;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  appearance: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: .2em;
+  border: 1px solid black;
+  background: 0 0;
+  margin-left: 35%;
+  color: black;
+}
+
+a.gifts-links {
+  color: black;
+  text-decoration: none;
+}
+
+a.gifts-links:visited {
+  color: black;
+}
+
+a.gifts-links:hover {
+  color: white;
+}
+
+a.gifts-links:active {
+  color: black;
+}
+
+
+
+div.reservation-box {
+  background-color: #141c54;
+  max-width: 100%;
+  width: 100%;
+  height: 750px;
+  text-align: center;
+  opacity: 0.8;
+  position: relative;
+}
+
+div.Reservations-section {
+  position: relative;
+  width: 100%;
+  max-width: 100rem;
+}
+
+header.reservation {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+img.reservation-title {
+  text-align: center;
+  padding-top: 11%;
+  padding-bottom: 5%;
+}
+
+div.reservation-text {
+  margin-top: -2%;
+  margin: auto;
+  text-align: center;
+  max-width: 21.5em;
+  font-size: 1.3em;
+  font-family: font-family: Filosofia, Georgia, serif;
+  line-height: 1.3333;
+  color: white;
+  margin-bottom: 2.7em;
+
+}
+
+button.button-reservation {
+  width: 15%;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  appearance: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: .2em;
+  border: 1px solid white;
+  background: white;
+
+
+
+}
+
+
+
+div.menus-box {
+  background-color: #7c5808;
+  width: 100%;
+  height: 750px;
+  text-align: center;
+  opacity: 0.8;
+  position: relative;
+  max-width: 100%;;
+}
+
+
+div.menus-section {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+div.menus-text {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 35.5em;
+  font-size: 1.3em;
+  font-family: font-family: Filosofia, Georgia, serif;
+  line-height: 1.3333;
+  color: white;
+  margin-bottom: 2.7em;
+
+}
+
+
+
+div.menus-section {
+  position: relative;
+  width: 100%;
+  max-width: 100rem;
+}
+
+header.menus {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+img.menus-title {
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+
+
+
+div.menus-button {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+
+div.menus-button-left {
+  width: 19%;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  appearance: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: .2em;
+  border: 1px solid white;
+  background: white;
+  display: inline-block;
+  margin-right: 5%;
+
+
+
+}
+
+a.m-button {
+
+color: #8a682a;
+text-decoration: none;
+
+}
+
+a.m-button:visited {
+
+color: #8a682a;
+
+}
+
+a.m-button:hover {
+
+color: black;
+
+}
+
+a.m-button:active {
+
+color: #8a682a;
+
+}
+
+
+
+
+
+
+div.menus-button-right {
+  width: 19%;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  appearance: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: .2em;
+  border: 1px solid white;
+  background: white;
+  display: inline-block;
+
+
+
+}
+
+
+
+
+
+
+
+
+div.location-box {
+  width: 50%;
+  background-color: #50748c;
+  height: 745px;
+  opacity: 1;
+}
+
+
+div.location-section {
+  position: relative;
+  width: 100%;
+  max-width: 50rem;
+}
+
+header.location {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 9%
+}
+
+
+img.location-title {
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 5%;
+  margin-left: 28%
+}
+
+
+
+div.location-textbox {
+  margin-bottom: 0;
+  text-align: center;
+  display: block;
+  max-width: 45rem;
+  font-size: 1.375em;
+  font-family: font-family: Filosofia, Georgia, serif;
+  line-height: 1.3333;
+  margin: 0 auto;
+}
+
+p.location-paragraph {
+  color: white;
+}
+
+p.location-title {
+  color: white;
+  text-decoration: underline;
+}
+
+div.location-button {
+  margin-top: 2.125rem;
+  width: 32%;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  appearance: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: .2em;
+  border: 1px solid white;
+  margin-left: 35%
+}
+
+
+
+a.location-link {
+
+color: white;
+text-decoration: none;
+
+}
+
+a.location-link:visited {
+
+color: white;
+
+}
+
+a.location-link:hover {
+
+color: black;
+
+}
+
+a.location-link:active {
+
+color: white;
+
+}
+
+
+
+
+div.location-iframe{
+  position: absolute;
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+iframe.l-iframe {
+  position: absolute;
+  background-color: white;
+  top: 0px;
+  left: 0px;
+}
+
+
+footer.loveclub-box {
+  background-color: #d8cd94;;
+  max-width: 100%;
+  width: 100%;
+  height: 850px;
+  text-align: center;
+  opacity: 1;
+  position: relative;
+}
+
+
+div.loveclub-section {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+header.loveclub {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+img.loveclub-title {
+max-width: 30.375em;
+margin: 0 auto;
+padding-top: 7%;
+padding-bottom: 2.5%;
+color: brown;
+}
+
+div.loveclub-text {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 34.5em;
+  font-size: 0.9em;
+  font-family: font-family: Filosofia, Georgia, serif;
+  line-height: 1.3333;
+  color: black;
+  margin-bottom: 2.7em;
+
+}
+
+input.loveclub-form {
+  width: 18%;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0.75rem;
+  text-transform: uppercase;
+  appearance: none;
+  font-size: 0.7rem;
+  line-height: 1;
+  letter-spacing: .2em;
+  border: 1px solid black;
+  background: 0 0;
+  height: 35px;
+}
+
+
+div.subscribe-button {
+  width: 100%;
+  text-align: center;
+  margin-top: 2.125rem;
+  display: block;
+  font-size: 0;
+}
+
+
+button.s-button {
+  width: 7%;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  appearance: none;
+  font-size: 0.6rem;
+  line-height: 1;
+  letter-spacing: .2em;
+  border: 1px solid black;
+  background: 0 0;
+  border-radius: 1em;
+}
+
+
+div.cloveclub-footer-title-section {
+max-width: 50%;
+margin: 0 auto;
+padding-top: 5.5%;
+padding-bottom: 4.5%;
+}
+
+h3.loveclub-title2 {
+  max-width: 80%;
+  margin: 0 auto;
+  font-family: Filosofia, Georgia, serif;
+  font-size: 1.8em;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+
+a.title-link {
+  color: #f8f2d2;
+  text-decoration: none;
+}
+
+a.title-link:visited {
+  color: #f8f2d2;
+}
+
+
+a.title-link:hover {
+  color: white;
+}
+
+a.title-link:active {
+  color: white;
+}
+
+
+
+
+a.footer-links {
+  color: #9b936a;
+  text-decoration: none;
+}
+
+a.footer-links:visited {
+  color: #9b936a;
+  text-decoration: none;
+}
+
+a.footer-links:hover {
+  color: #464230;
+  text-decoration: none;
+}
+
+a.footer-links:active {
+  color: #464230;
+  text-decoration: none;
+}
